@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>ABfreewrite.com</title>
 	<link href="https://fonts.googleapis.com/css?family=Charm|Indie+Flower|Lobster|Pacifico" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anaheim|Exo+2|Montserrat|Noto+Sans" rel="stylesheet">
@@ -14,53 +14,54 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Lora|Oxygen|Playfair+Display|Poppins|Quicksand" rel="stylesheet"><!---->
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/favorites.css" rel="stylesheet">
-	<link href="css/cool_styles.css" rel="stylesheet"><!-- REACT LIBRARY -->
+	<link href="css/cool_styles.css" rel="stylesheet">
 
-	<script src="https://unpkg.com/react@15.5.4/dist/react.js">
-	</script><!-- REACT DOM LIBRARY -->
+ <!-- REACT LIBRARY -->
+  <script src="https://unpkg.com/react@15.5.4/dist/react.js"></script>
+  <!-- REACT DOM LIBRARY -->
+  <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.js"></script>
+  <!-- BABEL LIBRARY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
 
-	<script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.js">
-	</script><!-- BABEL LIBRARY -->
+<style> 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js">
-	</script>
-	<style>
+.nonfiction {
 
+width: 150px; 
+height: 227px; 
 
-	.nonfiction {
+} 
 
-	width: 150px; 
-	height: 227px; 
-
-	} 
-
-	   a {
-	   text-decoration: none;
-	color: #FF00FF; 
-
-	   } 
-
-	a:hover {
-	color:Chocolate;
-	background-color: #fff;
-
-	}
-
-	#app { 
-	color: Gainsboro; 
-	font-family: 'Quicksand'; 
-	margin-left: 450px; 
-	} 
-
-
-	.coral {
-
-	background-color: coral; 
+	a {
+	text-decoration: none;
+color: #FF00FF; 
 
 	} 
+
+a:hover {
+color:Chocolate;
+background-color: #fff;
+
+}
+
+#app { 
+color: Gainsboro; 
+font-family: 'Quicksand'; 
+margin-left: 450px; 
+} 
+
+
+.coral {
+
+background-color: coral; 
+
+} 
 
 	</style>
 </head>
+
+
+
 <body>
 	<header class="header" id="Lob">
 		AB Freewrite.com
@@ -74,161 +75,133 @@
 		</script></span>
 	</div>
 	<hr>
-	<figure>
-		<p><a href="https://www.npr.org/2019/04/11/712430942/israeli-robotic-moon-landing-fails-in-final-descent">Beresheet loses main engine in final moments, crash lands on the Moon&lt; br /&gt; <img alt="Lunar lander viewing party." class="average" src="assets/beresheet_party.jpg"></a></p>
-	</figure>
-	<div id="app4">
-		Do something React
-	</div>
-	<div id="app3">
-		React has not rendered yet
-	</div>
-	<div id="app2">
-		React has not rendered yet
-	</div>
-	<script type="text/babel">
-
-
-
-	var DaysInEmbassy = function () {
-	 return (
-	<div>2,487 days later...</div>
-	   )
-	}; 
-
-	ReactDOM.render(
-	   
-	   < DaysInEmbassy/ >,
-	   document.getElementById("app4")); 
-
-
-	var Assange = function() {
-	   return (
-	       <div>
-	           <figure>
-	               <p><a href="https://www.dailymail.co.uk/news/article-6911187/Wikileaks-founder-Julian-Assange-arrested-police.html?ico=pushly-notifcation-small">Julian Assange arrested<br /></a></p>
-	               <img src="assets/Assange_carried_away.png" class="average" alt="Julian Assange"/>
-	           </figure>
-	       </div>
-	   )
-	}; 
-
-	ReactDOM.render(
-	       <Assange />, 
-	       document.getElementById("app3"));
 
 
 
 
 
-
-	           var Figure = function() {
-	               return(
-	               <div>
-	               <figure className="coral">
-	                   <p><a href="https://www.jpost.com/Israel-News/Beresheet-to-land-on-the-moon-April-11th-Israel-4th-country-to-conquer-585934">Israel's lunar robot expected to land on Moon April 11 <br />
-	                       <img src="assets/Earth-Moon-shot.png" class="" alt="The surface of the Moon with Earth in the background as photographed by the Beresheet lunar lander. Photo: SpaceIL/ Beresheet" /></a></p><figcaption>The surface of the Moon with Earth in the background is photographed by Beresheet. </figcaption>
-	                   
-	               </figure>
+<div id="app2">React has not rendered yet</div>
 
 
+<script type="text/babel">
 
-
-	           </div>
-	               )
-	       }; 
-
-
-
-	           ReactDOM.render(
-	           < Figure />, 
-	           document.getElementById("app2")
-	           ); 
-
-
-	</script>
-	<figure>
-		<p><a href="https://www.forbes.com/sites/forbesnycouncil/2019/03/26/what-us-business-owners-need-to-know-about-gdpr/#69fd93cc7aff">What U.S. business owners need to know about GDPR - Forbes<br>
-		<img alt="secure website" class="average" src="assets/https_image.jpg"></a></p>
-	</figure>
-	<h2 id="Lob">What to read next</h2>
-	<figure>
-		<p><a href="https://www.nytimes.com/2019/03/28/books/review/thin-blue-lie-matt-stroud.html">Book reveals the failures of hi-tech policing<br>
-		<img alt="Nonfiction, Thin Blue Lie, a new non-fiction book bout the failures of AI tech in policing./&gt;&lt;/a&gt;&lt;/p&gt; &lt;figcaption&gt;&lt;/figcaption&gt; &lt;/figure&gt; &lt;a href=" class="nonfiction" src="assets/thin_blue_lie.jpg"></a></p>
-		<div class="my_articles">
-			<span class="cooltext"></span>
-			<h4 class="indieflower"><span class="cooltext">My articles</span></h4>
-			<ol>
-				<li class="">
-					<span class="article_date">3/18</span><a href="March2019/orbits_to_the_Moon.html">How a spacecraft reaches the Moon</a>
-				</li>
-				<li>
-					<span class="article_date">3/13</span><a href="March2019/The_State_of_the_News">The State of the Free Press</a>
-				</li>
-				<li>
-					<span class="article_date">3/08</span><a href="March2019/US_withdraws_support_for_war.html">Congress' vote to end support for Saudi led war in Yemen, potentially saved Yemeni lives</a>
-				</li>
-				<li>
-					<span class="article_date">2/25</span><a href="February2019/Microsoft-introduces-Hololens2-and-Advance-Kinect-at-Mobile-World-Congress-in-Barcelona.html">Microsoft introduces Hololens2 for B2B consumers at MWC19 in Barcelona</a>
-				</li>
-				<li>
-					<span class="article_date">2/24</span><a href="February2019/marijuana-dispensaries-in-Chula-Vista.html">Marijuana Dispensaries in Chula Vista: Critical issues</a>
-				</li>
-				<li>
-					<span class="article_date">2/18</span><a href="February2019/bad-blood-review.html">My book review of:</a> <span id="Mark">Bad Blood</span> by John Carryrou
-				</li>
-				<li>
-					<span class="article_date">2/09</span><a href="../February2019/predictive-policing.html">Predictive policing</a>
-				</li>
-				<li>
-					<span class="article_date">2/02</span><a href="February2019/iPhone-model-that-Apple-should-make.html">iPhone model that Apple should make next</a>
-				</li>
-				<li>
-					<span class="article_date">1/27</span><a href="February2019/The-Outsider-by-Stephen-King-2018.html" id="articles">My book review of:</a> <span id="Mark">The Outsider(2018)</span> by Stephen King
-				</li>
-				<li></li>
-			</ol>
-		</div><br>
-		<div class="jr">
-			<div id="Lob">
-				JR's Corner Booth
-			</div>
-			<ol class="my-articles">
-				<li>
-					<span class="article_date">3/02/19</span> <a href="JR/CivilAmerica.html">Is America as "Civilized" as We Think?</a>
-				</li>
-				<li>
-					<span class="article_date">2/23/19</span> <a href="JR/a-bomber-crews-long-road-home.html">A bomber crew's long road home</a>
-				</li>
-			</ol>
+var Fig4 = function() {
+	var blueStyle = {
+		height: 300, 
+		width: 550,
+		 
+	}
+	return (
+		<div>
+			<figure style={blueStyle}>
+				<p><a href="https://www.nytimes.com/2019/04/13/technology/apple-qualcomm-chips-smartphones.html">Apple, Qualcomm trial begins Monday in San Diego <br />
+				<img src="assets/Mollenkopf.png" style={blueStyle} alt="Steve Mollenkopf, CEO of Qualcomm" class="average"/></a></p>
+			</figure>
 		</div>
-		<section id="inline">
-			<p class="indieflower hidden"></p><br>
-			<br>
-			<div class="resources">
-				<ul>
-					<li>
-						<a href="mission.html">Mission statement</a>
-					</li>
-					<li class="hidden">
-						<a href="">Table of contents</a>
-					</li>
-					<li>
-						<a href="photocatalog.html" id="Cinz">Photo catalog</a>
-					</li>
-					<li>
-						<a href="favorites.html" id="Cinz">Favorite Google Fonts</a>
-					</li>
-					<li>
-						<a href="rules.html">Rules of writing</a>
-					</li>
-					<li>
-						<a href="About-me.html">About me</a>
-					</li>
-				</ul>
-			</div>
-		</section><br>
+	)
+}; 
+
+ReactDOM.render(
+		<Fig4/>, 
+		document.getElementById("app2"));
+
+		</script>
+
+
+<h2 id="Lob">What to read next</h2>
+<figure>
+<p>
+<a href="https://www.nytimes.com/2019/03/28/books/review/thin-blue-lie-matt-stroud.html">Book reveals the failures of hi-tech policing<br/><img src="assets/thin_blue_lie.jpg" class="nonfiction" alt="Nonfiction, Thin Blue Lie, a new non-fiction book bout the failures of AI tech in policing./></a></p>
+<figcaption></figcaption>
+</figure>
+
+
+	<a href=""></a>
+	<div class="my_articles">
+		<span class="cooltext"></span>
+		<h4 class="indieflower"><span class="cooltext">My articles</span></h4>
+		<ol>
+	<li class="">
+
+
+			
+		
+				<span class="article_date">3/18</span><a href="March2019/orbits_to_the_Moon.html">How a spacecraft reaches the Moon</a>
+			</li>
+			<li>
+				<span class="article_date">3/13</span><a href="March2019/The_State_of_the_News">The State of the Free Press</a>
+			</li>
+			<li>
+				<span class="article_date">3/08</span><a href="March2019/US_withdraws_support_for_war.html">Congress' vote to end support for Saudi led war in Yemen, potentially saved Yemeni lives</a>
+			</li>
+			<li>
+				<span class="article_date">2/25</span><a href="February2019/Microsoft-introduces-Hololens2-and-Advance-Kinect-at-Mobile-World-Congress-in-Barcelona.html">Microsoft introduces Hololens2 for B2B consumers at MWC19 in Barcelona</a>
+			</li>
+			<li>
+				<span class="article_date">2/24</span><a href="February2019/marijuana-dispensaries-in-Chula-Vista.html">Marijuana Dispensaries in Chula Vista: Critical issues</a>
+			</li>
+			<li>
+				<span class="article_date">2/18</span><a href="February2019/bad-blood-review.html">My book review of:</a> <span id="Mark">Bad Blood</span> by John Carryrou
+			</li>
+			<li>
+				<span class="article_date">2/09</span><a href="../February2019/predictive-policing.html">Predictive policing</a>
+			</li>
+			<li>
+				<span class="article_date">2/02</span><a href="February2019/iPhone-model-that-Apple-should-make.html">iPhone model that Apple should make next</a>
+			</li>
+			<li>
+				<span class="article_date">1/27</span><a href="February2019/The-Outsider-by-Stephen-King-2018.html" id="articles">My book review of:</a> <span id="Mark">The Outsider(2018)</span> by Stephen King
+			</li>
+			<li></li>
+		</ol>
+	</div><br>
+	<div class="jr">
+		<div id="Lob">
+			JR's Corner Booth
+		</div>
+		<ol class="my-articles">
+			
+			<li>
+				<span class="article_date">3/02/19</span> <a href="JR/CivilAmerica.html">Is America as "Civilized" as We Think?</a>
+			</li>
+			<li>
+				<span class="article_date">2/23/19</span> <a href="JR/a-bomber-crews-long-road-home.html">A bomber crew's long road home</a>
+			</li>
+		</ol>
+	</div>
+	<section id="inline">
+		<p class="indieflower hidden"></p><br>
 		<br>
-	</figure>
+		<div class="resources">
+			<ul>
+				
+				<li>
+					<a href="mission.html">Mission statement</a>
+				</li>
+				<li class="hidden">
+					<a href="">Table of contents</a>
+				</li>
+				<li>
+					<a href="photocatalog.html" id="Cinz">Photo catalog</a>
+				</li>
+				<li>
+					<a href="favorites.html" id="Cinz">Favorite Google Fonts</a>
+				</li>
+				<li>
+					<a href="rules.html">Rules of writing</a>
+				</li>
+				<li>
+					<a href="About-me.html">About me</a>
+				</li>
+			</ul>
+		</div>
+	</section><br>
+	<br>
+
+
+
+
+	
+	
 </body>
 </html>
